@@ -1,3 +1,6 @@
+Copyright (c) 2026 FromtheArakiel
+Project: Twilight-Spark-Delight-Fabric
+
 # PolyForm Noncommercial License 1.0.0
 
 <https://polyformproject.org/licenses/noncommercial/1.0.0>
@@ -131,7 +134,6 @@ software under these terms.
 of your licenses.
 
 ADDITIONAL SHARE-ALIKE ADDENDUM
-
 This Addendum supplements the PolyForm Noncommercial License 1.0.0 (the "Base License"). The Base License and this Addendum together constitute the complete license for the Software. In case of conflict, this Addendum controls only for matters within its scope.
 
 1.1 Scope
@@ -159,17 +161,20 @@ Within 90 days of first Triggering Distribution, you must:
     - The original work: Twilight-Spark-Delight-Fabric
     - Licensor: FromtheArakiel
     - A description of your modifications
-  4. Ensure accessibility: the published source code must remain publicly available for at least 3 years from the date of Triggering Distribution.
+  4. Ensure permanent accessibility: once published, the source code of the Derivative Work must remain publicly available indefinitely, and must remain licensed under the combination of full PolyForm Noncommercial License 1.0.0 and this Share-Alike Addendum.
 
-1.4 Internal Use Exception
+1.4 Platform Unavailability Exception
+Failure to maintain public accessibility shall not constitute a breach if caused by circumstances outside your reasonable control, including but not limited to: platform shutdown, service termination, account suspension, platform data loss, or other force majeure events. You must take prompt and reasonable action to republish the source code on an alternative public platform as soon as practicable after the outage. Voluntary removal or private hosting of the source code still constitutes a breach.
+
+1.5 Internal Use Exception
 You are NOT required to publish Derivative Works that:
   - Remain internal to your organization
   - Are not distributed to third parties
   - Are not used to provide services to external users
 Once you engage in Triggering Distribution, the 90-day publication requirement starts.
 
-1.5 Commercial Licenses
+1.6 Commercial Licenses
 Commercial licenses for the Software or Derivative Works may be negotiated separately with the Licensor. Commercial licenses may waive the obligations under this Share-Alike Addendum.
 
-1.6 Severability
+1.7 Severability
 If any provision of this Addendum is found unenforceable, the remaining provisions of this Addendum and the Base License remain in full force and effect.
