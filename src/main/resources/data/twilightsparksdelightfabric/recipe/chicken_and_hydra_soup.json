@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"tag": "twilightsparksdelightfabric:chicken_and_hydra_soup_chicken"},
+    {"item": "twilightforest:hydra_chop"},
+    {"item": "twilightforest:naga_scale"},
+    {"item": "twilightsparksdelightfabric:redcap_spice"},
+    {"tag": "c:crops/onion"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:bowl_of_chicken_and_hydra_soup", "count": 1},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 900
+}

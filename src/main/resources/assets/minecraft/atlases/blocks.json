@@ -1,0 +1,6 @@
+{
+  "sources": [
+    {"type": "single", "resource": "twilightsparksdelightfabric:block/fiery_essence_still"},
+    {"type": "single", "resource": "twilightsparksdelightfabric:block/fiery_essence_flow"}
+  ]
+}

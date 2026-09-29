@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"tag": "twilightsparksdelightfabric:cooked_meef"},
+    {"item": "twilightsparksdelightfabric:cooked_bighorn_mutton"},
+    {"item": "twilightsparksdelightfabric:cooked_wild_boar_meat"},
+    {"item": "twilightsparksdelightfabric:slime_beetle_honey_gland"},
+    {"item": "twilightforest:torchberries"},
+    {"item": "twilightsparksdelightfabric:liveroot_bread"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:twilight_cheese_fondue_companion", "count": 1},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 240
+}

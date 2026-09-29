@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelightfabric:hermit_crab_leg"
+  },
+  "result": {
+    "id": "twilightsparksdelightfabric:cooked_hermit_crab_leg"
+  },
+  "experience": 0.35,
+  "cooking_time": 200
+}

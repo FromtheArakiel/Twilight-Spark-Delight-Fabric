@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {"item": "twilightforest:experiment_115"},
+    {"item": "minecraft:redstone_block"},
+    {"item": "twilightsparksdelightfabric:redcap_spice"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:eat_me", "count": 9},
+  "experience": 1.0,
+  "cookingtime": 9600
+}

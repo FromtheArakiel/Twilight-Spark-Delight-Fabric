@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightforest:pocket_watch"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.gunfire_breaks_rabbit_watch"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.gunfire_breaks_rabbit_watch.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "gunfire_breaks_rabbit_watch": {
+      "trigger": "twilightsparksdelightfabric:gunfire_breaks_rabbit_watch"
+    }
+  }
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "twilightsparksdelightfabric:labyrinth_mushroom_colony"}],
+  "tool": {"tag": "c:tools/knife"},
+  "result": [{"item": {"id": "twilightsparksdelightfabric:labyrinth_mushroom", "count": 5}}]
+}

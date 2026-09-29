@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightforest:quest_ram_trophy"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.burning_ram_lord"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.burning_ram_lord.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "burning_ram_lord": {
+      "trigger": "twilightsparksdelightfabric:burning_ram_lord"
+    }
+  }
+}
+
+

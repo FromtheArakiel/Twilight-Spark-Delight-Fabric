@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "farmersdelight:tomato_sauce"},
+    {"item": "farmersdelight:tomato_sauce"},
+    {"item": "farmersdelight:tomato_sauce"},
+    {"item": "minecraft:snowball"},
+    {"item": "twilightsparksdelightfabric:gelid_crystal"},
+    {"item": "twilightsparksdelightfabric:liveroot_dough"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:double_crown_ice_cream", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 300
+}

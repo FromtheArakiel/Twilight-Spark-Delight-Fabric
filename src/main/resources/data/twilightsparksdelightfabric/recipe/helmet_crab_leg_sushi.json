@@ -1,0 +1,8 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "twilightsparksdelightfabric:helmet_crab_leg_sushi_roll"}],
+  "tool": {"tag": "c:tools/knife"},
+  "result": [
+    {"item": {"id": "twilightsparksdelightfabric:helmet_crab_leg_sushi", "count": 3}}
+  ]
+}

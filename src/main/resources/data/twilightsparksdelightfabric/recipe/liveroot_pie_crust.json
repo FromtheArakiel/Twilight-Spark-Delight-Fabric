@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "wMw",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "item": "twilightsparksdelightfabric:liveroot_cone"
+    },
+    "M": {
+      "tag": "c:drinks/milk"
+    }
+  },
+  "result": {
+    "id": "twilightsparksdelightfabric:liveroot_pie_crust",
+    "count": 1
+  }
+}

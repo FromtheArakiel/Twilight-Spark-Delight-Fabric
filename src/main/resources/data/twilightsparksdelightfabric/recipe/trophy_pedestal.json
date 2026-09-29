@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" S ", "SKS", " S "],
+  "key": {
+    "S": {"item": "minecraft:stone_bricks"},
+    "K": {"item": "twilightforest:knightmetal_ingot"}
+  },
+  "result": {"id": "twilightforest:trophy_pedestal", "count": 1}
+}

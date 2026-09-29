@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:forest_sweet",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:redcap_spice"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.redcap_spice"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.redcap_spice.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redcap_spice": {
+      "trigger": "twilightsparksdelightfabric:redcap_spice"
+    }
+  }
+}
+
+

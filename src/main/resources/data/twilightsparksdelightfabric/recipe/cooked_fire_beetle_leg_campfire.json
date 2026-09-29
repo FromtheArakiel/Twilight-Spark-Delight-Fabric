@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {"item": "twilightsparksdelightfabric:fire_beetle_leg"},
+  "result": {"id": "twilightsparksdelightfabric:cooked_fire_beetle_leg"},
+  "experience": 0.35,
+  "cooking_time": 600
+}

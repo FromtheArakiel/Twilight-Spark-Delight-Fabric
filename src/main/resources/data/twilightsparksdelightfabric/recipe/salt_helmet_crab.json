@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:hermit_crab"},
+    {"item": "twilightsparksdelightfabric:torchberry_sauce"},
+    {"item": "twilightsparksdelightfabric:torchberry_sauce"},
+    {"item": "farmersdelight:canvas"},
+    {"item": "farmersdelight:canvas"},
+    {"item": "minecraft:slime_ball"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:salt_helmet_crab", "count": 1},
+  "container": {"id": "farmersdelight:canvas", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 600
+}

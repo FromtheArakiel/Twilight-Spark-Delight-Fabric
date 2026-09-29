@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {"item": "twilightsparksdelightfabric:quest_ram_milk"},
+  "result": {"id": "twilightsparksdelightfabric:quest_ram_cheese"},
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "farmersdelight:rich_soil",
+    { "id": "nethersdelight:rich_soul_soil", "required": false },
+    { "id": "nethers_delight_legacy:rich_soul_soil", "required": false },
+    { "id": "nethers_delight:rich_soul_soil", "required": false }
+  ]
+}

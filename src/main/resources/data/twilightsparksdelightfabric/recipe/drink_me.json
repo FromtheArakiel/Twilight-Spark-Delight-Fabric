@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:torchberry_sauce"},
+    {"item": "minecraft:cooked_chicken"},
+    {"item": "twilightsparksdelightfabric:slime_beetle_honey_gland"},
+    {"item": "twilightsparksdelightfabric:quest_ram_milk"},
+    {"item": "twilightsparksdelightfabric:redcap_spice"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:drink_me", "count": 1},
+  "container": {"id": "minecraft:glass_bottle", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 140
+}

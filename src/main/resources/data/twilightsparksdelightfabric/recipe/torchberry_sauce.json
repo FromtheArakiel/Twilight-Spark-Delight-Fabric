@@ -1,0 +1,13 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightforest:torchberries"},
+    {"item": "twilightforest:torchberries"},
+    {"tag": "c:crops/onion"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:torchberry_sauce", "count": 2},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 100
+}

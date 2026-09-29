@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:bracken"},
+    {"item": "twilightsparksdelightfabric:bracken"},
+    {"item": "twilightsparksdelightfabric:bracken"},
+    {"item": "twilightsparksdelightfabric:bracken"},
+    {"fabric:type": "twilightsparksdelightfabric:water_source"},
+    {"item": "twilightforest:pocket_watch"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:pickled_bracken_jar", "count": 1},
+  "container": {"id": "twilightforest:mason_jar", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 60
+}

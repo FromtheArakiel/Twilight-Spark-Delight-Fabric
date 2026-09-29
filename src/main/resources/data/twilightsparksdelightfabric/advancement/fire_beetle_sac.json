@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:forest_sweet",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:fire_beetle_flame_sac"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.fire_beetle_sac"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.fire_beetle_sac.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_beetle_sac": {
+      "trigger": "twilightsparksdelightfabric:fire_beetle_sac"
+    }
+  }
+}
+
+

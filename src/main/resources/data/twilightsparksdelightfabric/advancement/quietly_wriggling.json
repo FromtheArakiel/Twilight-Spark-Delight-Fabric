@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:experiment_000"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.quietly_wriggling"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.quietly_wriggling.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "quietly_wriggling": {
+      "trigger": "twilightsparksdelightfabric:quietly_wriggling"
+    }
+  }
+}
+
+

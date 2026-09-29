@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:twilight_cheese_fondue"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.fondue_foreign_style"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.fondue_foreign_style.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "twilightsparksdelightfabric:forest_banquet",
+  "criteria": {
+    "fondue_foreign_style": {
+      "trigger": "twilightsparksdelightfabric:fondue_foreign_style"
+    }
+  }
+}
+
+

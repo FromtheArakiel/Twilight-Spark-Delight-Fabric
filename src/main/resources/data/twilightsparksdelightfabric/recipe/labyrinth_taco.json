@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {"item": "twilightforest:maze_wafer"},
+    {"item": "twilightsparksdelightfabric:torchberry_sauce"},
+    {"tag": "twilightsparksdelightfabric:cooked_meef"},
+    {"item": "twilightsparksdelightfabric:labyrinth_mushroom"},
+    {"tag": "twilightsparksdelightfabric:twilight_forest_plants"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:labyrinth_taco", "count": 1}
+}

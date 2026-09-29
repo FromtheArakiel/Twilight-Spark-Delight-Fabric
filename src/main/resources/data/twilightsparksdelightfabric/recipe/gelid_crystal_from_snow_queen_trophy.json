@@ -1,0 +1,8 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "minecraft:packed_ice"}],
+  "tool": {"item": "twilightforest:snow_queen_trophy"},
+  "result": [
+    {"item": {"id": "twilightsparksdelightfabric:gelid_crystal", "count": 1}}
+  ]
+}

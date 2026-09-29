@@ -1,0 +1,24 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightforest:pocket_watch"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.late_for_date"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.late_for_date.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "late_for_date": {
+      "trigger": "twilightsparksdelightfabric:late_for_date"
+    }
+  }
+}
+
+

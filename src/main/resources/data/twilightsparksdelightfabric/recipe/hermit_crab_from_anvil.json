@@ -1,0 +1,33 @@
+{
+  "type": "twilightsparksdelightfabric:helmet_crab_cutting",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:hermit_crab"}
+  ],
+  "tool": [
+    {"item": "minecraft:anvil"},
+    {"item": "minecraft:chipped_anvil"},
+    {"item": "minecraft:damaged_anvil"}
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "twilightsparksdelightfabric:hermit_crab_leg",
+        "count": 3
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "id": "twilightsparksdelightfabric:hermit_crab_leg",
+        "count": 3
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "id": "twilightforest:armor_shard_cluster",
+        "count": 5
+      }
+    }
+  ]
+}

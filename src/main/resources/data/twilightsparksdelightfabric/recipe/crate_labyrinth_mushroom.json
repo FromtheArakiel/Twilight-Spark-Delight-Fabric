@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["MMM", "MMM", "MMM"],
+  "key": {"M": {"item": "twilightsparksdelightfabric:labyrinth_mushroom"}},
+  "result": {"id": "twilightsparksdelightfabric:labyrinth_mushroom_crate", "count": 1}
+}

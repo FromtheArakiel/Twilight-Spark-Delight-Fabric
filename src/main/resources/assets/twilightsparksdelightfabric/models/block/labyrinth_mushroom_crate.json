@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "twilightsparksdelightfabric:block/labyrinth_mushroom_crate_side",
+    "bottom": "farmersdelight:block/crate_bottom",
+    "top": "twilightsparksdelightfabric:block/labyrinth_mushroom_crate_top"
+  }
+}

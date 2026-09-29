@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelightfabric:raw_wild_boar_meat_cubes"
+  },
+  "result": {
+    "id": "twilightsparksdelightfabric:cooked_wild_boar_meat_cubes"
+  },
+  "experience": 0.35,
+  "cooking_time": 200
+}

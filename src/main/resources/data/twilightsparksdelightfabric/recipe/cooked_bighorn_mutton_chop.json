@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelightfabric:raw_bighorn_mutton_chop"
+  },
+  "result": {
+    "id": "twilightsparksdelightfabric:cooked_bighorn_mutton_chop"
+  },
+  "experience": 0.35,
+  "cooking_time": 200
+}

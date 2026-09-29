@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightforest:armor_shard_cluster"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.ruthless_iron_mouth"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.ruthless_iron_mouth.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "ruthless_iron_mouth": {
+      "trigger": "twilightsparksdelightfabric:ruthless_iron_mouth"
+    }
+  }
+}
+
+

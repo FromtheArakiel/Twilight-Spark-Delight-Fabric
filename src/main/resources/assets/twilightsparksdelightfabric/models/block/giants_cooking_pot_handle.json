@@ -1,0 +1,444 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "block/block",
+  "textures": {
+    "top": "farmersdelight:block/cooking_pot_top",
+    "particle": "farmersdelight:block/cooking_pot_side",
+    "side": "farmersdelight:block/cooking_pot_side",
+    "parts": "farmersdelight:block/cooking_pot_parts",
+    "bottom": "farmersdelight:block/cooking_pot_bottom",
+    "handle": "farmersdelight:block/cooking_pot_handle"
+  },
+  "elements": [
+    {
+      "name": "pot",
+      "from": [
+        4.0,
+        0.0,
+        4.0
+      ],
+      "to": [
+        28.0,
+        20.0,
+        28.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#top"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "spoon",
+      "from": [
+        14.0,
+        6.0,
+        14.0
+      ],
+      "to": [
+        18.0,
+        30.0,
+        18.0
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          16.0,
+          6.0,
+          16.0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            0,
+            14
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            0,
+            14
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#parts"
+        }
+      }
+    },
+    {
+      "name": "east_handle",
+      "from": [
+        28.0,
+        14.0,
+        10.0
+      ],
+      "to": [
+        32.0,
+        18.0,
+        22.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0,
+            12,
+            2
+          ],
+          "texture": "#parts"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "texture": "#parts",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#parts"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            10,
+            2
+          ],
+          "rotation": 90,
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#parts"
+        }
+      }
+    },
+    {
+      "name": "west_handle",
+      "from": [
+        0.0,
+        14.0,
+        10.0
+      ],
+      "to": [
+        4.0,
+        18.0,
+        22.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#parts"
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            12,
+            2
+          ],
+          "texture": "#parts"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "texture": "#parts",
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            10,
+            2
+          ],
+          "rotation": 270,
+          "texture": "#parts"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            10,
+            4
+          ],
+          "rotation": 270,
+          "texture": "#parts"
+        }
+      }
+    },
+    {
+      "name": "hoop",
+      "from": [
+        2.0,
+        16.0,
+        16.0
+      ],
+      "to": [
+        30.0,
+        32.0,
+        16.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            8,
+            15,
+            16
+          ],
+          "texture": "#handle"
+        },
+        "south": {
+          "uv": [
+            1,
+            8,
+            15,
+            16
+          ],
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "east_handle",
+      "from": [
+        30.0,
+        16.0,
+        14.0
+      ],
+      "to": [
+        30.0,
+        32.0,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2,
+            0,
+            0,
+            8
+          ],
+          "texture": "#handle"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            8
+          ],
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "west_handle",
+      "from": [
+        2.0,
+        16.0,
+        14.0
+      ],
+      "to": [
+        2.0,
+        32.0,
+        18.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2,
+            0,
+            0,
+            8
+          ],
+          "texture": "#handle"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            8
+          ],
+          "texture": "#handle"
+        }
+      }
+    },
+    {
+      "name": "top_handle",
+      "from": [
+        2.0,
+        31.998,
+        14.0
+      ],
+      "to": [
+        30.0,
+        31.998,
+        18.0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            0,
+            16,
+            2
+          ],
+          "texture": "#handle",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            16,
+            2
+          ],
+          "texture": "#handle"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "cooking_pot",
+      "origin": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "handle",
+      "origin": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "color": 0,
+      "children": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

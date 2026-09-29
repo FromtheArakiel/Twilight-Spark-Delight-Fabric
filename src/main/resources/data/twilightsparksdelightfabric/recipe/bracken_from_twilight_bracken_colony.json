@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:twilight_bracken_colony"}
+  ],
+  "tool": {"tag": "c:tools/knife"},
+  "result": [
+    {
+      "item": {
+        "id": "twilightsparksdelightfabric:bracken",
+        "count": 5
+      }
+    }
+  ]
+}

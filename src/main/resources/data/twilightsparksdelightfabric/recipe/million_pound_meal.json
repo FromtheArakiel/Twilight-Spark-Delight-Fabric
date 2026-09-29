@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"tag": "twilightsparksdelightfabric:wild_boar_meat"},
+    {"item": "farmersdelight:fried_egg"},
+    {"tag": "twilightsparksdelightfabric:raw_meef"},
+    {"tag": "twilightsparksdelightfabric:twilight_forest_plants"},
+    {"tag": "twilightsparksdelightfabric:bracken_ingredient"},
+    {"item": "twilightsparksdelightfabric:labyrinth_mushroom"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:million_pound_meal", "count": 1},
+  "container": {"id": "twilightsparksdelightfabric:torchberry_sauce", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 200
+}

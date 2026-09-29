@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "twilightsparksdelightfabric:block/twilight_bracken_colony_stage0"
+    },
+    "age=1": {
+      "model": "twilightsparksdelightfabric:block/twilight_bracken_colony_stage1"
+    },
+    "age=2": {
+      "model": "twilightsparksdelightfabric:block/twilight_bracken_colony_stage2"
+    },
+    "age=3": {
+      "model": "twilightsparksdelightfabric:block/twilight_bracken_colony_stage3"
+    },
+    "age=4": {
+      "model": "twilightsparksdelightfabric:block/twilight_bracken_colony_stage4"
+    }
+  }
+}

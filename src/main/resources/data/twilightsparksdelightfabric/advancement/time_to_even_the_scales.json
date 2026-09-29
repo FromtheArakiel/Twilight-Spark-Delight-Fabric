@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:naga_mixed_rice"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.time_to_even_the_scales"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.time_to_even_the_scales.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "naga_mixed_rice": {
+      "trigger": "twilightsparksdelightfabric:time_to_even_the_scales"
+    }
+  }
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "twilightsparksdelightfabric:labyrinth_mushroom_crate"}],
+  "result": {"id": "twilightsparksdelightfabric:labyrinth_mushroom", "count": 9}
+}

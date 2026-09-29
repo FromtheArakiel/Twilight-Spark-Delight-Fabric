@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "twilightsparksdelightfabric:item/bowl_of_chicken_and_hydra_soup"
+  }
+}

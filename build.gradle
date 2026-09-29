@@ -1,0 +1,99 @@
+plugins {
+	// Farmer's Delight (refabricated) ships a `classTweaker v2` file which only
+	// the current Loom line understands, so the modern plugin id is used. That
+	// line needs a Java 25 build JVM (see gradle/gradle-daemon-jvm.properties);
+	// the mod itself is still compiled for Java 21.
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = "${mod_id}-${minecraft_version}-fabric"
+}
+
+repositories {
+	// Third-party mod jars are supplied from the local "libs" folder so the
+	// project stays buildable without extra remote maven repositories.
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"${mod_id}" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+// Local mod dependencies. Swap these for regular maven coordinates once the
+// third-party jars are available from a repository at build time.
+def localMod = { String name -> files("libs/${name}") }
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// Required content mods.
+	modImplementation localMod('FarmersDelight-1.21.1-3.3.6+refabricated.jar')
+	modImplementation localMod('twilightforest-fabric-1.21.1-4.8.629.jar')
+
+	// Optional integration targets: compiled against, never required at runtime.
+	modCompileOnly localMod('appleskin-fabric-mc1.21-3.0.6.jar')
+	modCompileOnly localMod('jei-1.21.1-fabric-19.56.0.439.jar')
+
+	// Twilight Forest's public API exposes Porting Lib types such as
+	// DeferredItem. Those jars are embedded inside the Twilight Forest jar for
+	// the runtime, so they are only needed on the compile classpath and are not
+	// added again at runtime (that would load every module twice).
+	modCompileOnly fileTree(dir: 'libs/porting_lib', include: '*.jar')
+
+	// Development runtime extras.
+	modLocalRuntime localMod('appleskin-fabric-mc1.21-3.0.6.jar')
+	modLocalRuntime localMod('jei-1.21.1-fabric-19.56.0.439.jar')
+}
+
+processResources {
+	def props = [
+			version          : project.mod_version,
+			minecraft_version: project.minecraft_version,
+			mod_id           : project.mod_id,
+			mod_name         : project.mod_name,
+			mod_description  : project.mod_description,
+			mod_authors      : project.mod_authors,
+			mod_license      : project.mod_license
+	]
+	inputs.properties props
+
+	filesMatching('fabric.mod.json') {
+		expand props
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+publishing {
+	publications {
+		create('mavenJava', MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {
+	}
+}

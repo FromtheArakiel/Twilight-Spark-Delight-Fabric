@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelightfabric:hermit_crab_leg"},
+    {"item": "twilightsparksdelightfabric:pinch_beetle_leg"},
+    {"item": "twilightsparksdelightfabric:slime_beetle_leg"},
+    {"item": "twilightsparksdelightfabric:fire_beetle_leg"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:labyrinth_sashimi_medley", "count": 1},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 150
+}

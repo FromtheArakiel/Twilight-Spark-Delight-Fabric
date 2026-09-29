@@ -1,0 +1,32 @@
+{
+  "parent": "twilightsparksdelightfabric:gourmet_hunter",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:labyrinth_mushroom"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.labyrinth_mushroom"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.labyrinth_mushroom.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "labyrinth_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:labyrinth_mushroom"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "bites": "0",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_body"
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_translucent"
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_translucent",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_translucent",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "0",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_translucent",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_body"
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_translucent"
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_translucent",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_translucent",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "1",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice1_translucent",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_body"
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_translucent"
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_translucent",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_translucent",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "2",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice2_translucent",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_body"
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_translucent"
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_body",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_translucent",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_body",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_translucent",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_body",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "bites": "3",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightsparksdelightfabric:block/abyss_pie_slice3_translucent",
+        "y": 270
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SGS", "SSS"],
+  "key": {
+    "S": {"item": "farmersdelight:stove"},
+    "G": {"item": "twilightforest:giant_cobblestone"}
+  },
+  "result": {"id": "twilightsparksdelightfabric:giant_stove", "count": 1}
+}

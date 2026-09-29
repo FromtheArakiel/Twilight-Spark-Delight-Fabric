@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": ["SS", "SS"],
+  "key": {"S": {"item": "twilightsparksdelightfabric:abyss_pie_slice"}},
+  "result": {"id": "twilightsparksdelightfabric:abyss_pie", "count": 1}
+}

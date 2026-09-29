@@ -1,0 +1,6 @@
+{
+    "parent":  "item/generated",
+    "textures":  {
+                     "layer0":  "twilightsparksdelightfabric:block/twilight_bracken_colony_stage4"
+                 }
+}

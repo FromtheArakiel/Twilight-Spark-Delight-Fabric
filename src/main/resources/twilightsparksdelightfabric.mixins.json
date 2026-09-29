@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arakiel.twilightsparksdelightfabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BonemealItemMixin",
+    "BlockEntityPersistentDataMixin",
+    "CookingPotBlockEntityMixin",
+    "CookingPotAccess",
+    "EntityPersistentDataMixin",
+    "FoodDataMixin",
+    "HungerMobEffectMixin",
+    "LifedrainScepterMixin",
+    "LivingEntityMixin",
+    "LivingEntityScaleMixin",
+    "MobMixin",
+    "MossRandomTickMixin",
+    "PlayerMixin",
+    "ServerLevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

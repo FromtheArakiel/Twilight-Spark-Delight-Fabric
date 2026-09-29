@@ -1,0 +1,32 @@
+{
+  "parent": "twilightsparksdelightfabric:gourmet_hunter",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:experiment_prototype"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.experiment_prototype"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.experiment_prototype.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "experiment_prototype": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:experiment_prototype"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

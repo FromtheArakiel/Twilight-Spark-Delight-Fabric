@@ -1,0 +1,24 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:million_pound_meal"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.million_pound_meal"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.million_pound_meal.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "million_pound_meal": {
+      "trigger": "twilightsparksdelightfabric:million_pound_meal"
+    }
+  }
+}
+

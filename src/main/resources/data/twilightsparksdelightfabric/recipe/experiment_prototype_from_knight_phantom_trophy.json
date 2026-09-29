@@ -1,0 +1,8 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "twilightforest:knightmetal_ingot"}],
+  "tool": {"item": "twilightforest:knight_phantom_trophy"},
+  "result": [
+    {"item": {"id": "twilightsparksdelightfabric:experiment_prototype", "count": 1}}
+  ]
+}

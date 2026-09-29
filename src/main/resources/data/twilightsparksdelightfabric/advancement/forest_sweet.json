@@ -1,0 +1,141 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightforest:torchberries"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.forest_sweet"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.forest_sweet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "liveroot_cone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:liveroot_cone"
+            ]
+          }
+        ]
+      }
+    },
+    "raw_wild_boar_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:raw_wild_boar_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "raw_bighorn_mutton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:raw_bighorn_mutton"
+            ]
+          }
+        ]
+      }
+    },
+    "torchberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:torchberries"
+            ]
+          }
+        ]
+      }
+    },
+    "liveroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:liveroot"
+            ]
+          }
+        ]
+      }
+    },
+    "raw_meef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:raw_meef"
+            ]
+          }
+        ]
+      }
+    },
+    "cooked_meef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:cooked_meef"
+            ]
+          }
+        ]
+      }
+    },
+    "twilight_fiddlehead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:fiddlehead"
+            ]
+          }
+        ]
+      }
+    },
+    "twilight_moss_patch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:moss_patch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "liveroot_cone",
+      "raw_wild_boar_meat",
+      "raw_bighorn_mutton",
+      "torchberries",
+      "liveroot",
+      "raw_meef",
+      "cooked_meef",
+      "twilight_fiddlehead",
+      "twilight_moss_patch"
+    ]
+  ]
+}

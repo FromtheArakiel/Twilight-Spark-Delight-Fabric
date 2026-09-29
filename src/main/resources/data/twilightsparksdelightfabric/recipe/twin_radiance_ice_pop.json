@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [" MT", "ACM", "SA "],
+  "key": {
+    "M": {"item": "twilightsparksdelightfabric:quest_ram_milk"},
+    "T": {"item": "twilightsparksdelightfabric:torchberry_sauce"},
+    "A": {"item": "twilightforest:aurora_block"},
+    "C": {"item": "twilightsparksdelightfabric:gelid_crystal"},
+    "S": {"item": "minecraft:stick"}
+  },
+  "result": {"id": "twilightsparksdelightfabric:twin_radiance_ice_pop", "count": 1}
+}

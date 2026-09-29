@@ -1,0 +1,11 @@
+{
+  "type": "twilightsparksdelightfabric:keeping_item_shapeless",
+  "category": "food",
+  "ingredients": [
+    {"tag": "twilightsparksdelightfabric:raw_meef"},
+    {"tag": "twilightsparksdelightfabric:trail_rations_seasoning"},
+    {"tag": "twilightsparksdelightfabric:trail_rations_mushroom"},
+    {"item": "twilightforest:pocket_watch"}
+  ],
+  "result": {"id": "twilightsparksdelightfabric:trail_rations", "count": 3}
+}

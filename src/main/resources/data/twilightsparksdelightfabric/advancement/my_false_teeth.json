@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelightfabric:root",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:hermit_crab"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.my_false_teeth"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.my_false_teeth.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "my_false_teeth": {
+      "trigger": "twilightsparksdelightfabric:my_false_teeth"
+    }
+  }
+}
+
+

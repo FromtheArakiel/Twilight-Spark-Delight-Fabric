@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#twilightsparksdelightfabric:raw_wild_boar_meat",
+    "#twilightsparksdelightfabric:cooked_wild_boar_meat",
+    "#twilightsparksdelightfabric:raw_bighorn_mutton",
+    "#twilightsparksdelightfabric:cooked_bighorn_mutton",
+    "twilightsparksdelightfabric:hermit_crab_leg",
+    "twilightsparksdelightfabric:cooked_hermit_crab_leg",
+    "twilightsparksdelightfabric:pinch_beetle_leg",
+    "twilightsparksdelightfabric:cooked_pinch_beetle_leg",
+    "twilightsparksdelightfabric:slime_beetle_leg",
+    "twilightsparksdelightfabric:cooked_slime_beetle_leg",
+    "twilightsparksdelightfabric:fire_beetle_leg",
+    "twilightsparksdelightfabric:cooked_fire_beetle_leg",
+    "twilightsparksdelightfabric:experiment_000",
+    "twilightsparksdelightfabric:mino_mince",
+    "twilightsparksdelightfabric:mino_patty"
+  ]
+}

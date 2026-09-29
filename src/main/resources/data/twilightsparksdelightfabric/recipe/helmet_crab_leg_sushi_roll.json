@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": ["RCB", "MMM"],
+  "key": {
+    "R": {"item": "farmersdelight:cooked_rice"},
+    "C": {"item": "twilightsparksdelightfabric:hermit_crab_leg"},
+    "B": {"tag": "twilightsparksdelightfabric:bracken_ingredient"},
+    "M": {"tag": "twilightsparksdelightfabric:twilight_forest_plants"}
+  },
+  "result": {"id": "twilightsparksdelightfabric:helmet_crab_leg_sushi_roll", "count": 1}
+}

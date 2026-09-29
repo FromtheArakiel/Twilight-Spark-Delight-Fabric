@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "twilightsparksdelightfabric:item/experiment_250_stage_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "twilightsparksdelightfabric:activity_stage": 1.0
+      },
+      "model": "twilightsparksdelightfabric:item/experiment_250_stage_2"
+    },
+    {
+      "predicate": {
+        "twilightsparksdelightfabric:activity_stage": 2.0
+      },
+      "model": "twilightsparksdelightfabric:item/experiment_250_stage_3"
+    }
+  ]
+}

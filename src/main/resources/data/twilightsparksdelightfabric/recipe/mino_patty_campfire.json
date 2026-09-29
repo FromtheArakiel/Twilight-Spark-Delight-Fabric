@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {"item": "twilightsparksdelightfabric:mino_mince"},
+  "result": {"id": "twilightsparksdelightfabric:mino_patty"},
+  "experience": 0.35,
+  "cooking_time": 600
+}

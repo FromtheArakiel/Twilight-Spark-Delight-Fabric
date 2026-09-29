@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelightfabric:twilight_cheese_fondue"
+    },
+    "title": {
+      "translate": "twilightsparksdelightfabric.advancement.forest_banquet"
+    },
+    "description": {
+      "translate": "twilightsparksdelightfabric.advancement.forest_banquet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "twilightsparksdelightfabric:root",
+  "criteria": {
+    "fondue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelightfabric:twilight_cheese_fondue"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
