@@ -1,4 +1,4 @@
-# TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.3
+# TWILIGHTSPARKDELIGHTFABRIC LICENSE v3.0
 
 Copyright (c) 2026 FromtheArakiel
 Project: Twilight-Spark-Delight-Fabric
@@ -91,6 +91,24 @@ Use by any charitable organization, educational institution, public research org
 
 You may have "fair use" rights for the software under the law. These terms do not limit them.
 
+### 3.5 Commercial Activity
+
+Commercial Activity means any use of the Software or any Derivative Work that, directly or indirectly, seeks, produces, or is intended to produce monetary compensation, commercial profit, or identifiable commercial advantage. Commercial Activity includes, without limitation:
+
+a) **Paid and Free Service Differentiation**: conditioning access to the Software, a Derivative Work, or any of its functions, capacity, performance, or quality on payment, such that paying users receive superior access, service, or experience compared to non-paying users.
+
+b) **Paid Unlocking**: imposing artificial limits on functions, content, or capacity of the Software or a Derivative Work that are otherwise available in full, and permitting users to remove those limits or obtain additional functions by payment.
+
+c) **Paid Acquisition**: conditioning the acquisition, download, installation, or use of the Software or a Derivative Work on payment, whether the payment is one-time, periodic, or usage-based.
+
+d) **Value-Added Bundling**: bundling the Software or a Derivative Work with a commercial product, service, or platform, or offering, promoting, or selling the Software or a Derivative Work as part of a commercial product, service, or platform.
+
+e) **Hosting and Network Services**: using the Software or a Derivative Work to provide hosting services, software as a service (SaaS), platform as a service (PaaS), or any other network-accessible service to third parties, regardless of whether that service is directly charged to users.
+
+f) **Monetization and Revenue**: deriving revenue directly from the use of the Software or a Derivative Work through advertising, sponsorship, data collection, user data monetization, or any other means.
+
+**Abstract Definition**: A use is Commercial Activity if its purpose or actual effect is to obtain monetary compensation, commercial profit, or identifiable commercial value. One-time, non-recurring exchanges of consideration that are clearly insufficient in value to constitute an ongoing commercial undertaking shall not be considered Commercial Activity.
+
 ## 4. CONDITIONS AND OBLIGATIONS
 
 ### 4.1 Notices
@@ -113,11 +131,11 @@ Within 90 days of first Triggering Distribution, you must:
 
 a) publish source code of the Derivative Work on a publicly accessible platform, such as GitHub, GitLab, or Codeberg;
 
-b) include the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.3 with the published code;
+b) include the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v3.0 with the published code;
 
 c) provide clear attribution identifying the original work Twilight-Spark-Delight-Fabric, the licensor FromtheArakiel, and a description of your modifications; and
 
-d) ensure permanent accessibility: once published, the source code of the Derivative Work must remain publicly available indefinitely, and must remain licensed under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.3.
+d) ensure permanent accessibility: once published, the source code of the Derivative Work must remain publicly available indefinitely, and must remain licensed under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v3.0.
 
 The publication requirement in this Section applies to any Derivative Work, including AI-Generated Output.
 
@@ -135,11 +153,29 @@ If the platform shutdown, service termination, account suspension, platform data
 
 You are NOT required to publish Derivative Works that remain internal to your organization, are not distributed to third parties, and are not used to provide services to external users. Once you engage in Triggering Distribution, the 90-day publication requirement starts.
 
+### 4.6 Unobfuscated and Human-Readable Source
+
+Any source code of a Derivative Work published under this License must be:
+
+a) unobfuscated, meaning that no code obfuscator, minifier, packer, encryptor, symbol renaming tool, dead code injection, or any other technique designed to make the code unreadable, unintelligible, or difficult to analyze for a human reader has been applied; and
+
+b) written in a human-readable programming language, using meaningful identifier names, and retaining sufficient comments and documentation that a developer of ordinary skill can understand, modify, and build the work.
+
+### 4.7 Source Repository Link on Binary Distribution Platforms
+
+If you distribute the Software or any Derivative Work through a third-party binary download platform or site, such as CurseForge, Modrinth, Planet Minecraft, or any similar platform, you must provide a directly accessible hyperlink to the complete source code repository published under Section 4.2 on every release page or download page. The link must:
+
+a) be displayed prominently on the download page, without requiring the user to scroll to the bottom or expand a collapsed section to find it;
+
+b) point to a directly accessible source code repository that can be viewed without additional steps, payment, or account registration; and
+
+c) remain synchronized with version updates, ensuring that the link always points to the source code version corresponding to the distributed binary.
+
 ## 5. SHARE-ALIKE OBLIGATIONS
 
 ### 5.1 Scope of Share-Alike Obligations
 
-If you create a Derivative Work and engage in Triggering Distribution, you must publicly release that Derivative Work under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.3, and no part of this license may be omitted. No other license, public or private, may be applied to the Derivative Work in place of this license.
+If you create a Derivative Work and engage in Triggering Distribution, you must publicly release that Derivative Work under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v3.0, and no part of this license may be omitted. No other license, public or private, may be applied to the Derivative Work in place of this license.
 
 ### 5.2 Modpacks and Aggregation
 
@@ -189,7 +225,7 @@ The first time you are notified in writing that you have violated any of these t
 
 ## 9. VERSIONING AND LATER VERSIONS
 
-The Licensor may publish revised and/or new versions of this License from time to time. Each version will be given a distinguishing version number. If the Software or any part of it contains a notice stating that it is governed by TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.3 or any later version, you may choose to follow the terms of v2.3 or any later version published by the Licensor. If the Software does not contain such a notice, you must follow v2.3. Each copyright holder may add such a notice to their code to permit use under this License or any later version.
+The Licensor may publish revised and/or new versions of this License from time to time. Each version will be given a distinguishing version number. If the Software or any part of it contains a notice stating that it is governed by TWILIGHTSPARKDELIGHTFABRIC LICENSE v3.0 or any later version, you may choose to follow the terms of v3.0 or any later version published by the Licensor. If the Software does not contain such a notice, you must follow v3.0. Each copyright holder may add such a notice to their code to permit use under this License or any later version.
 
 ## 10. NO LIABILITY
 
