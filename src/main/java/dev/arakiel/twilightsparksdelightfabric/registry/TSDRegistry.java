@@ -15,6 +15,7 @@ import dev.arakiel.twilightsparksdelightfabric.common.effect.TSDMobEffects;
 import dev.arakiel.twilightsparksdelightfabric.common.entity.ThrownPickledBracken;
 import dev.arakiel.twilightsparksdelightfabric.common.item.TSDItems;
 import dev.arakiel.twilightsparksdelightfabric.common.recipe.TSDCustomRecipes;
+import net.fabricmc.fabric.api.transfer.v1.item.ItemStorage;
 import net.minecraft.advancements.critereon.ContextAwarePredicate;
 import net.minecraft.advancements.critereon.EntityPredicate;
 import net.minecraft.advancements.critereon.SimpleCriterionTrigger;
@@ -961,6 +962,15 @@ public final class TSDRegistry {
             GIANT_COOKING_POT = register(BuiltInRegistries.BLOCK_ENTITY_TYPE, "giant_cooking_pot",
                     BlockEntityType.Builder.of(TSDBlockEntities.GiantPot::new,
                             Blocks.GIANT_COOKING_POT, Blocks.GIANTS_COOKING_POT).build(null));
+            /*
+             * Farmer's Delight exposes its pot inventory through the transfer API
+             * for its own block entity type only. The giant pots carry their own
+             * type, so the same lookup is registered here; without it hoppers and
+             * pipes could not reach them, while the original NeoForge version
+             * registered an item handler capability for exactly this type.
+             */
+            ItemStorage.SIDED.registerForBlockEntity(
+                    (pot, side) -> pot.getStorage(side), GIANT_COOKING_POT);
             GLORY_CRUCIBLE = register(BuiltInRegistries.BLOCK_ENTITY_TYPE, "glory_crucible",
                     BlockEntityType.Builder.of(TSDBlockEntities.GloryCrucible::new,
                             Blocks.GLORY_CRUCIBLE, Blocks.TWILIGHT_BORSCHT).build(null));

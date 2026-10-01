@@ -1,6 +1,7 @@
 package dev.arakiel.twilightsparksdelightfabric.mixin;
 
 import dev.arakiel.twilightsparksdelightfabric.TwilightSparksDelightFabric;
+import dev.arakiel.twilightsparksdelightfabric.common.block.KitchenBlocks;
 import dev.arakiel.twilightsparksdelightfabric.common.item.TSDItems;
 import dev.arakiel.twilightsparksdelightfabric.event.TSDCookingPotRecipes;
 import dev.arakiel.twilightsparksdelightfabric.registry.TSDRegistry;
@@ -11,10 +12,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.ItemContainerContents;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
@@ -28,6 +31,29 @@ import vectorwing.farmersdelight.refabricated.inventory.RecipeWrapper;
  */
 @Mixin(value = CookingPotBlockEntity.class, remap = false)
 public abstract class CookingPotBlockEntityMixin {
+    /**
+     * Farmer's Delight's cooking pot constructor always passes its own block
+     * entity type to the super constructor, but this Minecraft version
+     * validates that type against the placed block. The giant cooking pots have
+     * their own type, so it is corrected here for those block entities before
+     * the validation runs.
+     */
+    @ModifyArg(method = "<init>",
+            at = @At(value = "INVOKE",
+                    target = "Lvectorwing/farmersdelight/common/block/entity/SyncedBlockEntity;"
+                            + "<init>(Lnet/minecraft/world/level/block/entity/BlockEntityType;"
+                            + "Lnet/minecraft/core/BlockPos;"
+                            + "Lnet/minecraft/world/level/block/state/BlockState;)V",
+                    remap = true),
+            index = 0)
+    private static BlockEntityType<?> tsd$giantPotType(BlockEntityType<?> original,
+                                                       BlockPos pos, BlockState state) {
+        // The handler runs before the super constructor, so "this" does not
+        // exist yet: the placed block identifies our giant cooking pots.
+        return state.getBlock() instanceof KitchenBlocks.GiantPot
+                ? TSDRegistry.BlockEntities.GIANT_COOKING_POT : original;
+    }
+
     @Inject(method = "isContainerValid", at = @At("HEAD"), cancellable = true, require = 0)
     private void tsd$requireEmptyPicklingJar(ItemStack container, CallbackInfoReturnable<Boolean> callback) {
         if (!container.is(twilightforest.init.TFItems.MASON_JAR.get())) {
@@ -51,7 +77,7 @@ public abstract class CookingPotBlockEntityMixin {
     }
 
     @Redirect(method = "processCooking", at = @At(value = "INVOKE",
-            target = "Lnet/minecraft/world/item/ItemStack;shrink(I)V"), require = 0)
+            target = "Lnet/minecraft/world/item/ItemStack;shrink(I)V", remap = true), require = 0)
     private void tsd$retainWatch(ItemStack stack, int count, RecipeHolder<CookingPotRecipe> recipe,
                                  CookingPotBlockEntity pot) {
         if (recipe.id().getNamespace().equals(TwilightSparksDelightFabric.MOD_ID)
@@ -64,7 +90,8 @@ public abstract class CookingPotBlockEntityMixin {
     @Redirect(method = "processCooking", at = @At(value = "INVOKE",
             target = "Lvectorwing/farmersdelight/common/crafting/CookingPotRecipe;assemble"
                     + "(Lvectorwing/farmersdelight/refabricated/inventory/RecipeWrapper;"
-                    + "Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;"),
+                    + "Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/ItemStack;",
+            remap = true),
             require = 0)
     private ItemStack tsd$prepareMeal(CookingPotRecipe recipe, RecipeWrapper input,
                                       HolderLookup.Provider registries) {

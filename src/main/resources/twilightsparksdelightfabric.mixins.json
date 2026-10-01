@@ -7,6 +7,7 @@
     "BonemealItemMixin",
     "BlockEntityPersistentDataMixin",
     "CookingPotBlockEntityMixin",
+    "CookingPotStillValidMixin",
     "CookingPotAccess",
     "EntityPersistentDataMixin",
     "FoodDataMixin",

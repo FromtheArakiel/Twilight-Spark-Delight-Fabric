@@ -15,7 +15,6 @@ import dev.arakiel.twilightsparksdelightfabric.registry.TSDRegistry;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.gui.builder.ITooltipBuilder;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
-import mezz.jei.api.gui.builder.IIngredientAcceptor;
 import mezz.jei.api.gui.drawable.IDrawable;
 import mezz.jei.api.gui.ingredient.IRecipeSlotDrawable;
 import mezz.jei.api.gui.ingredient.IRecipeSlotView;
@@ -222,13 +221,13 @@ public final class TSDJeiCategories {
             if (cutting) {
                 output.setStandardSlotBackground();
             }
-            List<IIngredientAcceptor<?>> linked = new ArrayList<>(List.of(experiment, output));
             if (cooking) {
-                linked.add(layout.addOutputSlot(STATION_X + 124, 39).addItemStacks(outputs));
+                layout.addOutputSlot(STATION_X + 124, 39).addItemStacks(outputs);
             }
-            // Linked slots share one cycle index, so a level can never display
-            // another level's output quantity.
-            layout.createFocusLink(linked.toArray(IIngredientAcceptor<?>[]::new));
+            // The output slots are kept in sync with the displayed experiment
+            // level by onDisplayedIngredientsUpdate instead of a focus link:
+            // JEI rejects focus links whose slots hold different ingredient
+            // counts, which happens as soon as one level has no valid output.
             experiment.addRichTooltipCallback((view, tooltip) -> {
                 tooltip.add(Component.translatable("twilightsparksdelightfabric.jei.not_consumed"));
                 view.getDisplayedItemStack().ifPresent(stack -> {
