@@ -1,4 +1,4 @@
-# TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.1
+# TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.2
 
 Copyright (c) 2026 FromtheArakiel
 Project: Twilight-Spark-Delight-Fabric
@@ -23,9 +23,13 @@ The **licensor** is the individual or entity offering these terms, and the **sof
 
 **User Product** means either (1) a consumer product, or (2) anything designed or sold for incorporation into a dwelling. A consumer product is tangible personal property normally used for personal, family, or household purposes, regardless of whether it also has commercial, industrial, or non-consumer uses, unless such uses represent the only significant mode of use of the product.
 
-**Derivative Work** means any modification, enhancement, or work based on the Software that alters, adds, or removes functionality of the original code, incorporates substantial portions of the original source code, or creates new components that depend on or interface with the original Software. Derivative Work includes, without limitation, any modification of the original logic through bytecode injection, Mixin, coremod, or any other technique that alters the runtime behavior of the Software. Derivative Work does NOT include configuration files or parameters, plugins or extensions that use only public APIs, or works that merely link to or use the Software as a library without modification.
+**AI System** means any machine learning model, generative artificial intelligence, large language model, code generation service, or similar automated system.
 
-**Triggering Distribution** means making the Derivative Work available to any third party, whether by download, hosting, or other means; using the Derivative Work to provide services accessible to third parties over a network; or deploying the Derivative Work in production environments accessible to others. Triggering Distribution expressly includes any distribution of a Derivative Work created through bytecode injection, Mixin, coremod, or any other technique that alters the original logic of the Software. Mere use of the Software by importing classes and calling public methods does not constitute Triggering Distribution.
+**AI-Generated Output** means any code, patch, modification, enhancement, documentation, or other work generated, in whole or in part, by an AI System.
+
+**Derivative Work** means any modification, enhancement, or work based on the Software that alters, adds, or removes functionality of the original code, incorporates substantial portions of the original source code, or creates new components that depend on or interface with the original Software. Derivative Work includes, without limitation, any modification of the original logic through bytecode injection, Mixin, coremod, or any other technique that alters the runtime behavior of the Software, and any AI-Generated Output that is based on, derived from, or incorporates the Software or any substantial portion of its source code, documentation, or logic. Derivative Work does NOT include configuration files or parameters, plugins or extensions that use only public APIs, or works that merely link to or use the Software as a library without modification.
+
+**Triggering Distribution** means making the Derivative Work available to any third party, whether by download, hosting, or other means; using the Derivative Work to provide services accessible to third parties over a network; or deploying the Derivative Work in production environments accessible to others. Triggering Distribution expressly includes any distribution of a Derivative Work created through bytecode injection, Mixin, coremod, or any other technique that alters the original logic of the Software, and any distribution of AI-Generated Output that constitutes a Derivative Work. Mere use of the Software by importing classes and calling public methods does not constitute Triggering Distribution.
 
 ## 2. GRANT OF RIGHTS
 
@@ -75,11 +79,11 @@ You must preserve all copyright, patent, trademark, and attribution notices cont
 
 > Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
 
-If the Software includes a NOTICE file, any distribution you make must include a readable copy of the attribution notices contained within that NOTICE file, excluding notices that do not pertain to any part of the Derivative Work. The contents of the NOTICE file are for informational purposes only and do not modify this License.
+If the Software includes a NOTICE file, any distribution you make must include a readable copy of the attribution notices contained within that NOTICE file, excluding notices that do not pertain to any part of the Derivative Work. The contents of the NOTICE file are for informational purposes only and do not modify this License. The obligations in this Section apply to any Derivative Work, including AI-Generated Output.
 
 ### 4.2 Publication Requirements
 
-Within 90 days of first Triggering Distribution, you must: (1) publish source code of the Derivative Work on a publicly accessible platform, such as GitHub, GitLab, or Codeberg; (2) include the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.1 with the published code; (3) provide clear attribution identifying the original work Twilight-Spark-Delight-Fabric, the licensor FromtheArakiel, and a description of your modifications; and (4) ensure permanent accessibility: once published, the source code of the Derivative Work must remain publicly available indefinitely, and must remain licensed under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.1.
+Within 90 days of first Triggering Distribution, you must: (1) publish source code of the Derivative Work on a publicly accessible platform, such as GitHub, GitLab, or Codeberg; (2) include the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.2 with the published code; (3) provide clear attribution identifying the original work Twilight-Spark-Delight-Fabric, the licensor FromtheArakiel, and a description of your modifications; and (4) ensure permanent accessibility: once published, the source code of the Derivative Work must remain publicly available indefinitely, and must remain licensed under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.2. The publication requirement in this Section applies to any Derivative Work, including AI-Generated Output.
 
 ### 4.3 Platform Unavailability Exception
 
@@ -93,11 +97,15 @@ You are NOT required to publish Derivative Works that remain internal to your or
 
 ### 5.1 Scope of Share-Alike Obligations
 
-If you create a Derivative Work and engage in Triggering Distribution, you must publicly release that Derivative Work under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.1, and no part of this license may be omitted. No other license, public or private, may be applied to the Derivative Work in place of this license.
+If you create a Derivative Work and engage in Triggering Distribution, you must publicly release that Derivative Work under the complete TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.2, and no part of this license may be omitted. No other license, public or private, may be applied to the Derivative Work in place of this license.
 
 ### 5.2 Modpacks and Aggregation
 
 You may include the Software in a modpack or other aggregation, provided that the modpack or aggregation does not modify the original code expression of the Software. Inclusion of the Software in a mere aggregation of separate and independent works does not cause this License to apply to the other works in the aggregation, provided that the Software is not modified and the aggregation does not create a Derivative Work. If the modpack or aggregation includes a Derivative Work, Section 5.1 applies to that Derivative Work.
+
+### 5.3 AI-Generated Works
+
+For the avoidance of doubt, providing, uploading, submitting, or otherwise making available the Software, or any substantial portion of its source code, documentation, or logic, to any AI System for the purpose of generating, modifying, or assisting in the generation of code or other works, and any resulting AI-Generated Output that is based on, derived from, or incorporates the Software, constitutes the creation of a Derivative Work and is subject to all obligations under this License, including Sections 4 and 5. This applies regardless of whether the AI System is operated by you, by a third party, or through a service, and regardless of whether the output is subsequently modified by a human.
 
 ## 6. ANTI-TIVOIZATION
 
@@ -117,7 +125,7 @@ The first time you are notified in writing that you have violated any of these t
 
 ## 10. VERSIONING AND LATER VERSIONS
 
-The Licensor may publish revised and/or new versions of this License from time to time. Each version will be given a distinguishing version number. If the Software or any part of it contains a notice stating that it is governed by TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.1 or any later version, you may choose to follow the terms of v2.1 or any later version published by the Licensor. If the Software does not contain such a notice, you must follow v2.1. Each copyright holder may add such a notice to their code to permit use under this License or any later version.
+The Licensor may publish revised and/or new versions of this License from time to time. Each version will be given a distinguishing version number. If the Software or any part of it contains a notice stating that it is governed by TWILIGHTSPARKDELIGHTFABRIC LICENSE v2.2 or any later version, you may choose to follow the terms of v2.2 or any later version published by the Licensor. If the Software does not contain such a notice, you must follow v2.2. Each copyright holder may add such a notice to their code to permit use under this License or any later version.
 
 ## 11. NO LIABILITY
 
