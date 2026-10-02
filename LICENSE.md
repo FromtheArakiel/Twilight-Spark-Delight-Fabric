@@ -113,15 +113,15 @@ A Use is Commercial Activity if its purpose or actual effect is to obtain moneta
 
 ### 2.1 Copyright License
 
-The Licensor grants You a copyright license for the Software to do everything You might do with the Software that would otherwise infringe the Licensor's copyright in it for any permitted purpose. However, You may only distribute the Software according to Section 2.2 and Modify the Software or create works based on it according to Section 2.3.
+The Licensor grants You a copyright license for the Software to do everything You might do with the Software that would otherwise infringe the Licensor's copyright in it for any permitted purpose. However, You may only Convey the Software according to Section 2.2 and Modify the Software or create Derivative Works according to Section 2.3.
 
 ### 2.2 Distribution License
 
-The Licensor grants You an additional copyright license to distribute copies of the Software. Your license to distribute covers distributing the Software with changes and new works permitted by Section 2.3.
+The Licensor grants You an additional copyright license to Convey copies of the Software. Your license to Convey covers Conveying the Software with Modified Versions and Derivative Works permitted by Section 2.3.
 
 ### 2.3 Changes and New Works License
 
-The Licensor grants You an additional copyright license to Modify the Software and create new works based on the Software for any permitted purpose.
+The Licensor grants You an additional copyright license to Modify the Software and create Derivative Works based on the Software for any permitted purpose.
 
 ### 2.4 Patent License
 
@@ -163,7 +163,7 @@ a) You must preserve all copyright, patent, trademark, and attribution notices c
 
 b) You must ensure that anyone who gets a copy of any part of the Software from You also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the Licensor provided with the Software.
 
-c) If the Software includes a NOTICE file, any distribution You make must include a readable copy of the attribution notices contained within that NOTICE file, excluding notices that do not pertain to any part of the Derivative Work. The contents of the NOTICE file are for informational purposes only and do not modify this License.
+c) If the Software includes a NOTICE file, any Conveying You make must include a readable copy of the attribution notices contained within that NOTICE file, excluding notices that do not pertain to any part of the Derivative Work. The contents of the NOTICE file are for informational purposes only and do not modify this License.
 
 The obligations in this Section apply to any Derivative Work, including AI-Generated Output.
 
@@ -193,7 +193,7 @@ If the platform shutdown, service termination, account suspension, platform data
 
 ### 4.5 Internal Use Exception
 
-You are NOT required to publish Derivative Works that remain internal to Your organization, are not distributed to third parties, and are not used to provide services to external users. Once You engage in Triggering Distribution, the 90-day publication requirement starts.
+You are NOT required to publish Derivative Works that remain internal to Your organization, are not Conveyed to third parties, and are not used to provide services to external users. Once You engage in Triggering Distribution, the 90-day publication requirement starts.
 
 ### 4.6 Unobfuscated and Human-Readable Source
 
@@ -205,9 +205,9 @@ b) written in a human-readable programming language, using meaningful identifier
 
 ### 4.7 Binary Distribution and Source Availability
 
-If You distribute the Software or any Derivative Work in Object Code Form, through any channel, including but not limited to official websites, third-party binary download platforms such as CurseForge, Modrinth, or Planet Minecraft, package managers, application stores, file-sharing services, direct downloads, mirrors, or any other means, You must accompany every such distribution with:
+If You Convey the Software or any Derivative Work in Object Code Form, through any channel, including but not limited to official websites, third-party binary download platforms such as CurseForge, Modrinth, or Planet Minecraft, package managers, application stores, file-sharing services, direct downloads, mirrors, or any other means, You must accompany every such Conveying with:
 
-a) the complete Corresponding Source of the distributed Object Code Form; or
+a) the complete Corresponding Source of the Conveyed Object Code Form; or
 
 b) a directly accessible hyperlink to the complete Corresponding Source published under Section 4.2.
 
@@ -217,7 +217,7 @@ a) be displayed prominently on the distribution page, download page, or release 
 
 b) point to a directly accessible Source Code Form repository that can be viewed without additional steps, payment, or account registration; and
 
-c) remain synchronized with version updates, ensuring that the link or accompanying source always corresponds to the distributed Object Code Form.
+c) remain synchronized with version updates, ensuring that the link or accompanying source always corresponds to the Conveyed Object Code Form.
 
 ## 5. SHARE-ALIKE OBLIGATIONS
 
@@ -277,7 +277,7 @@ Unless You explicitly state otherwise, any Contribution intentionally submitted 
 
 ### 9.2 Grant of Copyright License by Contributors
 
-Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Contributions of such Contributor and such Derivative Works.
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and Convey the Contributions of such Contributor and such Derivative Works.
 
 ### 9.3 Grant of Patent License by Contributors
 
