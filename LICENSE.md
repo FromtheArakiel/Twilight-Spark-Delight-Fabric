@@ -43,7 +43,11 @@ In order to get any license under these terms, you must agree to them as both st
 
 **"Propagate"** means to do anything with a work that, without permission, would make You directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution with or without modification, making available to the public, and in some countries other activities as well.
 
-**"Convey"** means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.
+**"Convey"** means any kind of propagation that enables other parties to make or receive copies. Convey also includes:
+
+a) using the Software or a Derivative Work to provide, operate, or maintain any service system, application, platform, or functionality accessible over a network, regardless of whether that service is hosted on a network or whether a copy is transferred; and
+
+b) making the Software or a Derivative Work available in Object Code Form through any network or electronic communication means, including but not limited to download, streaming, automatic update, package distribution, or any other electronic transmission.
 
 #### 1.2.4 Contributions
 
@@ -203,21 +207,21 @@ a) unobfuscated, meaning that no code obfuscator, minifier, packer, encryptor, s
 
 b) written in a human-readable programming language, using meaningful identifier names, and retaining sufficient comments and documentation that a developer of ordinary skill can understand, modify, and build the work.
 
-### 4.7 Binary Distribution and Source Availability
+### 4.7 Conveying and Source Availability
 
-If You Convey the Software or any Derivative Work in Object Code Form, through any channel, including but not limited to official websites, third-party binary download platforms such as CurseForge, Modrinth, or Planet Minecraft, package managers, application stores, file-sharing services, direct downloads, mirrors, or any other means, You must accompany every such Conveying with:
+If You Convey the Software or any Derivative Work, You must accompany every such Conveying with:
 
-a) the complete Corresponding Source of the Conveyed Object Code Form; or
+a) the complete Corresponding Source of the Conveyed Software or Derivative Work; or
 
 b) a directly accessible hyperlink to the complete Corresponding Source published under Section 4.2.
 
 The link or accompanying source must:
 
-a) be displayed prominently on the distribution page, download page, or release notes, without requiring the user to scroll to the bottom or expand a collapsed section to find it;
+a) be displayed prominently on the distribution page, download page, service interface, or release notes, without requiring the user to scroll to the bottom or expand a collapsed section to find it;
 
 b) point to a directly accessible Source Code Form repository that can be viewed without additional steps, payment, or account registration; and
 
-c) remain synchronized with version updates, ensuring that the link or accompanying source always corresponds to the Conveyed Object Code Form.
+c) remain synchronized with version updates, ensuring that the link or accompanying source always corresponds to the Conveyed Software or Derivative Work.
 
 ## 5. SHARE-ALIKE OBLIGATIONS
 
