@@ -160,6 +160,11 @@ public final class FeastBlocks {
             return true;
         }
 
+        /** Total serving count, exposed for the Jade overlay. */
+        public int getMaxServings() {
+            return maxServings;
+        }
+
         @Override
         public int getAnalogOutputSignal(BlockState state, Level level, BlockPos pos) {
             return state.getValue(SERVINGS);
@@ -239,6 +244,11 @@ public final class FeastBlocks {
 
         protected IntegerProperty getStateProperty() {
             return STAGE;
+        }
+
+        /** Total stage count, exposed for the Jade overlay. */
+        public int getMaxStage() {
+            return maxStage;
         }
 
         @Override
@@ -498,6 +508,11 @@ public final class FeastBlocks {
             super(properties.noOcclusion().pushReaction(PushReaction.BLOCK));
             this.controller = controller;
             registerDefaultState(stateDefinition.any().setValue(StageFeast.FACING, Direction.NORTH));
+        }
+
+        /** Controller of this cell, used by the Jade overlay so a cell identifies the meal. */
+        public LargeStageFeast getController() {
+            return controller.get();
         }
 
         @Override

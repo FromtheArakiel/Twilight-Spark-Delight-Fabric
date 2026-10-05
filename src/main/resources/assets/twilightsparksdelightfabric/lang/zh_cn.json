@@ -240,5 +240,8 @@
   "twilightsparksdelightfabric.tooltip.random_cure": "随机解除一个可解除的负面效果",
   "twilightsparksdelightfabric.tooltip.random_cure_three": "随机解除三个可解除的负面效果",
   "twilightsparksdelightfabric.tooltip.symbiosis": "获得1分钟共生效果",
-  "twilightsparksdelightfabric.tooltip.twilight_cheese_fondue_companion.durability": "剩余分食次数：%s/%s"
+  "twilightsparksdelightfabric.tooltip.twilight_cheese_fondue_companion.durability": "剩余分食次数：%s/%s",
+
+  "jade.twilightsparksdelightfabric.servings": "剩余份数：%s / %s",
+  "jade.twilightsparksdelightfabric.stage": "阶段：%s / %s"
 }

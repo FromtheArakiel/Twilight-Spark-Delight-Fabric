@@ -19,6 +19,9 @@
     ],
     "jei_mod_plugin": [
       "dev.arakiel.twilightsparksdelightfabric.client.integration.jei.TSDJeiPlugin"
+    ],
+    "jade": [
+      "dev.arakiel.twilightsparksdelightfabric.integration.jade.TSDJadePlugin"
     ]
   },
   "mixins": [
@@ -38,6 +41,7 @@
   },
   "suggests": {
     "jei": "*",
-    "appleskin": "*"
+    "appleskin": "*",
+    "jade": "*"
   }
 }

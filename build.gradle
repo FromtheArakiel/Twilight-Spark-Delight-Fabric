@@ -47,6 +47,7 @@ dependencies {
 	// Optional integration targets: compiled against, never required at runtime.
 	modCompileOnly localMod('appleskin-fabric-mc1.21-3.0.6.jar')
 	modCompileOnly localMod('jei-1.21.1-fabric-19.56.0.439.jar')
+	modCompileOnly localMod('Jade-1.21.1-Fabric-15.10.6.jar')
 
 	// Twilight Forest's public API exposes Porting Lib types such as
 	// DeferredItem. Those jars are embedded inside the Twilight Forest jar for
@@ -57,6 +58,7 @@ dependencies {
 	// Development runtime extras.
 	modLocalRuntime localMod('appleskin-fabric-mc1.21-3.0.6.jar')
 	modLocalRuntime localMod('jei-1.21.1-fabric-19.56.0.439.jar')
+	modLocalRuntime localMod('Jade-1.21.1-Fabric-15.10.6.jar')
 }
 
 processResources {

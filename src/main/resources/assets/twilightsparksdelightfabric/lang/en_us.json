@@ -240,5 +240,8 @@
   "twilightsparksdelightfabric.tooltip.random_cure": "Clears 1 random removable debuff",
   "twilightsparksdelightfabric.tooltip.random_cure_three": "Clears 3 random removable debuffs",
   "twilightsparksdelightfabric.tooltip.symbiosis": "Grants 1 minute of Symbiosis",
-  "twilightsparksdelightfabric.tooltip.twilight_cheese_fondue_companion.durability": "Remaining portions: %s/%s"
+  "twilightsparksdelightfabric.tooltip.twilight_cheese_fondue_companion.durability": "Remaining portions: %s/%s",
+
+  "jade.twilightsparksdelightfabric.servings": "Servings: %s / %s",
+  "jade.twilightsparksdelightfabric.stage": "Stage: %s / %s"
 }

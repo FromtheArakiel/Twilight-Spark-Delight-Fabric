@@ -498,6 +498,11 @@ public final class KitchenBlocks {
             registerDefaultState(stateDefinition.any().setValue(BlockStateProperties.LIT, false));
         }
 
+        /** Controller of this cell, used by the Jade overlay so a cell identifies the kitchen. */
+        public Block getControllerBlock() {
+            return controller.get();
+        }
+
         @Override
         protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
             builder.add(BlockStateProperties.LIT);
