@@ -1,6 +1,5 @@
 package dev.arakiel.twilightsparksdelight.client;
 
-import dev.arakiel.gemini.integration.GeminiIntegrations;
 import dev.arakiel.twilightsparksdelight.client.render.TSDBlockEntityRenderers;
 import dev.arakiel.twilightsparksdelight.common.item.TSDItems;
 import dev.arakiel.twilightsparksdelight.common.network.TSDNetwork;
@@ -19,10 +18,6 @@ public final class TSDClientSetup implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         HudRenderCallback.EVENT.register((graphics, partialTick) -> TSDExtraFoodHud.render(graphics));
-        if (GeminiIntegrations.isModLoaded("appleskin")) {
-            TSDAppleSkinCompat.register();
-        }
-
         TSDNetwork.setClientHandlers(
                 state -> Minecraft.getInstance().execute(() -> TSDClientEvents.applyFoodState(state)),
                 activation -> Minecraft.getInstance().execute(

@@ -4,6 +4,8 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import dev.arakiel.gemini.integration.GeminiIntegration;
+import dev.arakiel.gemini.integration.GeminiIntegrationType;
 import dev.arakiel.twilightsparksdelight.TSDConfig;
 import dev.arakiel.twilightsparksdelight.TwilightSparksDelight;
 import dev.arakiel.twilightsparksdelight.registry.TSDRegistry;
@@ -24,7 +26,11 @@ import vectorwing.farmersdelight.common.registry.ModBlocks;
 
 /** Optional JEI integration of the Fabric edition. */
 @JeiPlugin
+@GeminiIntegration(value = "jei", version = "[19.0,)", type = GeminiIntegrationType.CLIENT)
 public final class TSDJeiPlugin implements IModPlugin {
+    public void applyClient() {
+    }
+
     public static final RecipeType<TSDJeiRecipes.Upgrade> CULTIVATION =
             RecipeType.create(TwilightSparksDelight.MOD_ID, "cultivation",
                     TSDJeiRecipes.Upgrade.class);

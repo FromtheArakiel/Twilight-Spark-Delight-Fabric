@@ -46,7 +46,9 @@
   "suggests": {
     "jei": "*",
     "appleskin": "*",
-    "jade": "*"
+    "jade": "*",
+    "curiosfabric": ">=9.5.1",
+    "twilightdelight": ">=3.2.0"
   },
   "custom": {
     "gemini:components": [

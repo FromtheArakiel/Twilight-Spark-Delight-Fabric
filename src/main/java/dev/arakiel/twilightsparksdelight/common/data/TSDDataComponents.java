@@ -71,6 +71,6 @@ public final class TSDDataComponents implements ComponentInitializers.Entity, Co
         }
     }
 
-    private TSDDataComponents() {
+    public TSDDataComponents() {
     }
 }

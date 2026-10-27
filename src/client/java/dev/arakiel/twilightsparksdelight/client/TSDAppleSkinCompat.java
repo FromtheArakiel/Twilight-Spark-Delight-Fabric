@@ -2,6 +2,8 @@ package dev.arakiel.twilightsparksdelight.client;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
+import dev.arakiel.gemini.integration.GeminiIntegration;
+import dev.arakiel.gemini.integration.GeminiIntegrationType;
 import dev.arakiel.twilightsparksdelight.TSDConfig;
 import dev.arakiel.twilightsparksdelight.common.food.TSDFoodData;
 import net.minecraft.client.Minecraft;
@@ -20,8 +22,17 @@ import squeek.appleskin.helpers.FoodHelper;
  * <p>Only loaded when AppleSkin is present; the vanilla compatible layer lives
  * in {@link TSDExtraFoodHud}.</p>
  */
+@GeminiIntegration(
+        value = "appleskin",
+        version = "[3.0.0,)",
+        type = GeminiIntegrationType.CLIENT
+)
 public final class TSDAppleSkinCompat {
-    private TSDAppleSkinCompat() {
+    public TSDAppleSkinCompat() {
+    }
+
+    public void applyClient() {
+        register();
     }
 
     public static void register() {

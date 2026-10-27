@@ -9,6 +9,7 @@ import dev.arakiel.twilightsparksdelight.common.TSDUtil;
 import dev.arakiel.twilightsparksdelight.common.block.KitchenBlocks;
 import dev.arakiel.twilightsparksdelight.common.blockentity.TSDBlockEntities;
 import dev.arakiel.twilightsparksdelight.common.data.TSDPersistentData;
+import dev.arakiel.twilightsparksdelight.integration.curios.CuriosBridge;
 import dev.arakiel.twilightsparksdelight.registry.TSDRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -419,7 +420,8 @@ public final class TSDEvents {
 
     public static boolean hasPocketWatchInHand(Player player) {
         return player.getMainHandItem().is(twilightforest.init.TFItems.POCKET_WATCH.get())
-                || player.getOffhandItem().is(twilightforest.init.TFItems.POCKET_WATCH.get());
+                || player.getOffhandItem().is(twilightforest.init.TFItems.POCKET_WATCH.get())
+                || CuriosBridge.hasWatch(player);
     }
 
     private static boolean hasPocketWatchInHotbar(Player player) {
@@ -428,7 +430,8 @@ public final class TSDEvents {
                 return true;
             }
         }
-        return player.getOffhandItem().is(twilightforest.init.TFItems.POCKET_WATCH.get());
+        return player.getOffhandItem().is(twilightforest.init.TFItems.POCKET_WATCH.get())
+                || CuriosBridge.hasWatch(player);
     }
 
     private static void giveQuietEffect(Player player, net.minecraft.core.Holder<net.minecraft.world.effect.MobEffect>

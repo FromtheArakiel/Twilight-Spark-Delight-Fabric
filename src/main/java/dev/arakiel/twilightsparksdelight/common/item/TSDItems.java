@@ -8,6 +8,7 @@ import java.util.function.Supplier;
 
 import dev.arakiel.twilightsparksdelight.TSDConfig;
 import dev.arakiel.twilightsparksdelight.common.effect.TSDMobEffects;
+import dev.arakiel.twilightsparksdelight.integration.twilightdelight.TwilightDelightBridge;
 import dev.arakiel.twilightsparksdelight.registry.TSDRegistry;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.component.DataComponents;
@@ -204,6 +205,15 @@ public final class TSDItems {
         }
 
         @Override
+        public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity consumer) {
+            ItemStack result = super.finishUsingItem(stack, level, consumer);
+            if (!level.isClientSide) {
+                TwilightDelightBridge.afterEating(consumer, stack);
+            }
+            return result;
+        }
+
+        @Override
         public void appendHoverText(ItemStack stack, TooltipContext context,
                                     List<Component> tooltip, TooltipFlag flag) {
             addNagaRiceLabel(stack, tooltip);
@@ -227,8 +237,9 @@ public final class TSDItems {
                 }
             }
             effects.addAll(nagaRiceEffects(stack));
-            if (!effects.isEmpty()) {
-                PotionContents.addPotionTooltip(effects, tooltip::add, 1.0F, context.tickRate());
+            List<MobEffectInstance> visibleEffects = TwilightDelightBridge.visibleEffects(stack, effects);
+            if (!visibleEffects.isEmpty()) {
+                PotionContents.addPotionTooltip(visibleEffects, tooltip::add, 1.0F, context.tickRate());
             }
         }
     }

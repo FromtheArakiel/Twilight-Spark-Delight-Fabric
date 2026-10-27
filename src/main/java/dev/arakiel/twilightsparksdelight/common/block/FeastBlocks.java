@@ -204,6 +204,11 @@ public final class FeastBlocks {
                           Supplier<Item> servingItem, boolean requiresBowl) {
             super(properties, maxStage, servingItem, requiresBowl, BITES);
         }
+
+        @Override
+        protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+            builder.add(FACING, BITES);
+        }
     }
 
     /** Serving block that progresses through discrete stages instead of servings. */
@@ -252,7 +257,7 @@ public final class FeastBlocks {
 
         @Override
         protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-            builder.add(FACING, stage);
+            builder.add(FACING, STAGE);
         }
 
         @Override

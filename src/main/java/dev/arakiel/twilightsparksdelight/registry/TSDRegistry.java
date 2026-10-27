@@ -337,7 +337,7 @@ public final class TSDRegistry {
             PICKLED_BRACKEN = EntityType.Builder.<ThrownPickledBracken>of(
                             ThrownPickledBracken::new, MobCategory.MISC)
                     .sized(0.25F, 0.25F).clientTrackingRange(4).updateInterval(10)
-                    .build("twilightsparksdelight:pickled_bracken");
+                    .build(null);
             GeminiRegistration.init(Entities.class);
         }
 

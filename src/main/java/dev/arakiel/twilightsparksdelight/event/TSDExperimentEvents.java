@@ -5,6 +5,7 @@ import dev.arakiel.twilightsparksdelight.common.data.TSDPersistentData;
 import dev.arakiel.twilightsparksdelight.common.food.TSDFoodData;
 import dev.arakiel.twilightsparksdelight.common.item.TSDItems;
 import dev.arakiel.twilightsparksdelight.common.network.TSDNetwork;
+import dev.arakiel.twilightsparksdelight.integration.curios.CuriosBridge;
 import dev.arakiel.twilightsparksdelight.registry.TSDRegistry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -127,6 +128,9 @@ public final class TSDExperimentEvents {
         if (location == TSDConfig.FatalProtectionItemLocation.OFFHAND) {
             return ItemStack.EMPTY;
         }
+        if (location == TSDConfig.FatalProtectionItemLocation.BAUBLES_OR_OFFHAND) {
+            return CuriosBridge.find(player, TSDExperimentEvents::isUsableExperiment);
+        }
         for (ItemStack stack : player.getInventory().items) {
             if (isUsableExperiment(stack)) {
                 return stack;
@@ -159,6 +163,11 @@ public final class TSDExperimentEvents {
             }
         });
         player.getInventory().offhand.forEach(stack -> {
+            if (stack.getItem() instanceof TSDItems.Experiment250) {
+                action.accept(stack);
+            }
+        });
+        CuriosBridge.forEach(player, stack -> {
             if (stack.getItem() instanceof TSDItems.Experiment250) {
                 action.accept(stack);
             }
