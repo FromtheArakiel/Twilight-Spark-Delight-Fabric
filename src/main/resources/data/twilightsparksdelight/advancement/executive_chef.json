@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "farmersdelight:cooking_pot"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.executive_chef"
+    },
+    "description": {
+      "translate": "twilightsparksdelight.advancement.executive_chef.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "twilightsparksdelight:root",
+  "criteria": {
+    "executive_chef": {
+      "trigger": "twilightsparksdelight:executive_chef"
+    }
+  }
+}
+
+

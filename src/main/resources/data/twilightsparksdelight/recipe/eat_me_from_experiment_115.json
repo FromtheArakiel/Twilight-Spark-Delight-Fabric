@@ -1,0 +1,8 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "twilightforest:experiment_115"}],
+  "tool": {"item": "twilightsparksdelight:redcap_spice"},
+  "result": [
+    {"item": {"id": "twilightsparksdelight:eat_me", "count": 1}}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {"item": "twilightsparksdelight:quest_ram_milk"},
+  "result": {"id": "twilightsparksdelight:quest_ram_cheese"},
+  "experience": 0.35,
+  "cookingtime": 200
+}

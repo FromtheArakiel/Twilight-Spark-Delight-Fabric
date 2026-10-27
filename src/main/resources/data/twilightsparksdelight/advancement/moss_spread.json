@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelight:forest_sweet",
+  "display": {
+    "icon": {
+      "id": "twilightforest:moss_patch"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.moss_spread"
+    },
+    "description": {
+      "translate": "twilightsparksdelight.advancement.moss_spread.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "moss_spread": {
+      "trigger": "twilightsparksdelight:moss_spread"
+    }
+  }
+}
+
+

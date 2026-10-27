@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "twilightsparksdelightfabric:block/labyrinth_mushroom_colony_stage0"
-  }
-}

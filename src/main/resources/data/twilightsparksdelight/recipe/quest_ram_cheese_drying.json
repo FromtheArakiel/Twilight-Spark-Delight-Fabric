@@ -1,0 +1,6 @@
+{
+  "type": "twilightforest:drying",
+  "filter_time": 600,
+  "input": {"item": "twilightsparksdelight:quest_ram_milk"},
+  "result": {"id": "twilightsparksdelight:quest_ram_cheese", "count": 2}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {"item": "twilightsparksdelight:raw_wild_boar_meat"}
+  ],
+  "tool": {"tag": "c:tools/knife"},
+  "result": [
+    {
+      "item": {
+        "id": "twilightsparksdelight:raw_wild_boar_meat_cubes",
+        "count": 2
+      }
+    }
+  ]
+}

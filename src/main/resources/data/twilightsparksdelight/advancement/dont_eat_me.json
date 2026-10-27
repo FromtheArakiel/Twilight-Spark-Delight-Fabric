@@ -1,0 +1,26 @@
+{
+  "parent": "twilightsparksdelight:root",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelight:eat_me"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.dont_eat_me"
+    },
+    "description": {
+      "text": "abcdefghij",
+      "obfuscated": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dont_eat_me": {
+      "trigger": "twilightsparksdelight:dont_eat_me"
+    }
+  }
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{"item": "twilightsparksdelight:bracken_crate"}],
+  "result": {"id": "twilightsparksdelight:bracken", "count": 9}
+}

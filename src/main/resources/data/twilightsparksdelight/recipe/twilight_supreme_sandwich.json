@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {"tag": "twilightsparksdelight:liveroot_bread"},
+    {"tag": "twilightsparksdelight:cooked_wild_boar_meat"},
+    {"item": "twilightforest:cooked_venison"},
+    {"tag": "twilightsparksdelight:cooked_bighorn_mutton"}
+  ],
+  "result": {"id": "twilightsparksdelight:twilight_supreme_sandwich", "count": 1}
+}

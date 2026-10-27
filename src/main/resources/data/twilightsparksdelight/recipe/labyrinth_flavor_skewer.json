@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {"item": "twilightsparksdelight:slime_beetle_honey_gland"},
+    {"item": "twilightsparksdelight:fire_beetle_flame_sac"},
+    {"tag": "twilightsparksdelight:cooked_meef"},
+    {"item": "minecraft:stick"},
+    {"item": "minecraft:stick"}
+  ],
+  "result": {"id": "twilightsparksdelight:labyrinth_flavor_skewer", "count": 2}
+}

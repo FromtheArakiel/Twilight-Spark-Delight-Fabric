@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelight:bracken"},
+    {"item": "twilightsparksdelight:bracken"},
+    {"item": "twilightsparksdelight:bracken"},
+    {"item": "twilightsparksdelight:bracken"},
+    {"fabric:type": "twilightsparksdelight:water_source"}
+  ],
+  "result": {"id": "twilightsparksdelight:unripe_pickled_bracken_jar", "count": 1},
+  "container": {"id": "twilightforest:mason_jar", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 600
+}

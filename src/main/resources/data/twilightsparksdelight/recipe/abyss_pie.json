@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelight:experiment_000"},
+    {"item": "twilightsparksdelight:slime_beetle_honey_gland"},
+    {"item": "twilightsparksdelight:experiment_234"},
+    {"item": "twilightsparksdelight:redcap_spice"},
+    {"item": "twilightsparksdelight:liveroot_pie_crust"},
+    {"item": "twilightforest:transformation_powder"}
+  ],
+  "result": {"id": "twilightsparksdelight:abyss_pie", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 300
+}

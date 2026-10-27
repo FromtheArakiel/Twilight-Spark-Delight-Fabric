@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightforest:naga_trophy"},
+    {"tag": "twilightsparksdelight:naga_mixed_rice_protein"},
+    {"item": "twilightforest:meef_stroganoff"},
+    {"item": "twilightsparksdelight:labyrinth_mushroom_crate"},
+    {"item": "twilightsparksdelight:bracken_crate"},
+    {"item": "farmersdelight:rice_bag"}
+  ],
+  "result": {"id": "twilightsparksdelight:naga_mixed_rice", "count": 1},
+  "container": {"id": "minecraft:shield", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 3600
+}

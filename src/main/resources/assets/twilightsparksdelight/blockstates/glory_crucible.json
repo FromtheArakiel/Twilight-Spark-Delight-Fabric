@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=1": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=2": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=3": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=4": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=5": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    },
+    "level=6": {
+      "model": "twilightsparksdelight:block/glory_crucible"
+    }
+  }
+}

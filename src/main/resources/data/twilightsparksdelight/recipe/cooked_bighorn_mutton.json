@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelight:raw_bighorn_mutton"
+  },
+  "result": {
+    "id": "twilightsparksdelight:cooked_bighorn_mutton"
+  },
+  "experience": 0.35,
+  "cooking_time": 200
+}

@@ -1,0 +1,8 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [{"item": "minecraft:glass_bottle"}],
+  "tool": {"item": "twilightforest:quest_ram_trophy"},
+  "result": [
+    {"item": {"id": "twilightsparksdelight:quest_ram_milk", "count": 1}}
+  ]
+}

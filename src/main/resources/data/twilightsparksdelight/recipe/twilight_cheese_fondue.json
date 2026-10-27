@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": ["CKC", "CTC", "ICI"],
+  "key": {
+    "C": {"item": "twilightforest:carminite"},
+    "K": {"item": "twilightsparksdelight:quest_ram_cheese"},
+    "T": {"item": "twilightsparksdelight:torchberry_sauce"},
+    "I": {"item": "minecraft:iron_ingot"}
+  },
+  "result": {"id": "twilightsparksdelight:twilight_cheese_fondue", "count": 1}
+}

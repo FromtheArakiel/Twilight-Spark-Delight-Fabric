@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelight:experiment_234"},
+    {"item": "twilightsparksdelight:experiment_000"}
+  ],
+  "result": {"id": "twilightsparksdelight:experiment_250", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 100
+}

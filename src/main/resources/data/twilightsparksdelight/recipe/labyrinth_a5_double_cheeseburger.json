@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "twilightsparksdelight:torchberry_sauce"},
+    {"tag": "twilightsparksdelight:twilight_forest_plants"},
+    {"tag": "twilightsparksdelight:cooked_meef"},
+    {"item": "twilightsparksdelight:labyrinth_mushroom"},
+    {"item": "twilightsparksdelight:quest_ram_cheese"},
+    {"tag": "twilightsparksdelight:cooked_meef"}
+  ],
+  "result": {"id": "twilightsparksdelight:labyrinth_a5_mushroom_flavor_double_cheeseburger", "count": 1},
+  "container": {"id": "twilightsparksdelight:liveroot_bread", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 240
+}

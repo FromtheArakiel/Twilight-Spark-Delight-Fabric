@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {"tag": "twilightsparksdelight:cooked_bighorn_mutton"},
+    {"tag": "twilightsparksdelight:cooked_wild_boar_meat"},
+    {"item": "twilightforest:torchberries"},
+    {"tag": "twilightsparksdelight:twilight_forest_plants"},
+    {"item": "minecraft:stick"},
+    {"item": "minecraft:stick"}
+  ],
+  "result": {"id": "twilightsparksdelight:twilight_skewer", "count": 2}
+}

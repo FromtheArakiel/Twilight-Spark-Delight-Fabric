@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "ingredient": {"item": "twilightsparksdelightfabric:experiment_000"},
-  "result": {"id": "twilightsparksdelightfabric:griddle_tentacle"},
-  "experience": 0.35,
-  "cooking_time": 600
-}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {"item": "twilightsparksdelight:raw_bighorn_mutton_chop"},
+  "result": {"id": "twilightsparksdelight:cooked_bighorn_mutton_chop"},
+  "experience": 0.35,
+  "cooking_time": 600
+}

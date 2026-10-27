@@ -8,26 +8,29 @@
     "${mod_authors}"
   ],
   "license": "${mod_license}",
-  "icon": "assets/twilightsparksdelightfabric/icon.png",
+  "icon": "assets/twilightsparksdelight/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.arakiel.twilightsparksdelightfabric.TwilightSparksDelightFabric"
+      "dev.arakiel.twilightsparksdelight.TwilightSparksDelight"
     ],
     "client": [
-      "dev.arakiel.twilightsparksdelightfabric.client.TSDClientSetup"
+      "dev.arakiel.twilightsparksdelight.client.TSDClientSetup"
     ],
     "jei_mod_plugin": [
-      "dev.arakiel.twilightsparksdelightfabric.client.integration.jei.TSDJeiPlugin"
+      "dev.arakiel.twilightsparksdelight.client.integration.jei.TSDJeiPlugin"
     ],
     "jade": [
-      "dev.arakiel.twilightsparksdelightfabric.integration.jade.TSDJadePlugin"
+      "dev.arakiel.twilightsparksdelight.integration.jade.TSDJadePlugin"
+    ],
+    "gemini:components": [
+      "dev.arakiel.twilightsparksdelight.common.data.TSDDataComponents"
     ]
   },
   "mixins": [
-    "twilightsparksdelightfabric.mixins.json",
+    "twilightsparksdelight.mixins.json",
     {
-      "config": "twilightsparksdelightfabric.client.mixins.json",
+      "config": "twilightsparksdelight.client.mixins.json",
       "environment": "client"
     }
   ],
@@ -36,6 +39,7 @@
     "minecraft": "~1.21.1",
     "java": ">=21",
     "fabric-api": "*",
+    "gemini": ">=1.0.3",
     "farmersdelight": ">=1.21.1-3.3.6",
     "twilightforest": ">=4.8.629"
   },
@@ -43,5 +47,11 @@
     "jei": "*",
     "appleskin": "*",
     "jade": "*"
+  },
+  "custom": {
+    "gemini:components": [
+      "twilightsparksdelight:entity_data",
+      "twilightsparksdelight:block_entity_data"
+    ]
   }
 }

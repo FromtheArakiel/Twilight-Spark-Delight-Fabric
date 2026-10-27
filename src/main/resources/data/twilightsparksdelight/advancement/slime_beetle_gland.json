@@ -1,0 +1,25 @@
+{
+  "parent": "twilightsparksdelight:forest_sweet",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelight:slime_beetle_honey_gland"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.slime_beetle_gland"
+    },
+    "description": {
+      "translate": "twilightsparksdelight.advancement.slime_beetle_gland.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slime_beetle_gland": {
+      "trigger": "twilightsparksdelight:slime_beetle_gland"
+    }
+  }
+}
+
+

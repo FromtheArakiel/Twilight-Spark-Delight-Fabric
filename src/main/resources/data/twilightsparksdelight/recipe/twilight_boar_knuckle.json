@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "farmersdelight:ham"},
+    {"item": "twilightsparksdelight:pickled_bracken"},
+    {"tag": "c:crops/onion"},
+    {"tag": "twilightsparksdelight:twilight_forest_plants"},
+    {"item": "twilightsparksdelight:labyrinth_mushroom"},
+    {"item": "twilightsparksdelight:torchberry_sauce"}
+  ],
+  "result": {"id": "twilightsparksdelight:twilight_boar_knuckle", "count": 1},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 1200
+}

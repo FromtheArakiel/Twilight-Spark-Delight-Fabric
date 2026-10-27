@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match the mod id declared in gradle.properties
-rootProject.name = 'twilightsparksdelightfabric'
+rootProject.name = 'twilightsparksdelight'

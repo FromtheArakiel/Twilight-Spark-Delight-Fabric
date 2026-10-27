@@ -1,0 +1,32 @@
+{
+  "parent": "twilightsparksdelight:forest_sweet",
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelight:torchberry_sauce"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.torchberry_sauce"
+    },
+    "description": {
+      "translate": "twilightsparksdelight.advancement.torchberry_sauce.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "torchberry_sauce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightsparksdelight:torchberry_sauce"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

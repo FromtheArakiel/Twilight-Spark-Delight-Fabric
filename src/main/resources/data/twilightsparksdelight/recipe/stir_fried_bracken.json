@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"tag": "twilightsparksdelight:raw_wild_boar_meat"},
+    {"tag": "twilightsparksdelight:raw_bighorn_mutton"},
+    {"tag": "twilightsparksdelight:bracken_ingredient"},
+    {"tag": "twilightsparksdelight:bracken_ingredient"},
+    {"item": "twilightsparksdelight:fire_beetle_flame_sac"}
+  ],
+  "result": {"id": "twilightsparksdelight:stir_fried_bracken", "count": 1},
+  "container": {"id": "minecraft:bowl", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 200
+}

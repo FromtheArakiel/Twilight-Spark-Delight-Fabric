@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.arakiel.twilightsparksdelight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CookingPotBlockEntityMixin",
+    "CookingPotStillValidMixin",
+    "CookingPotAccess",
+    "FoodDataMixin",
+    "HungerMobEffectMixin",
+    "LifedrainScepterMixin",
+    "LivingEntityMixin",
+    "LivingEntityScaleMixin",
+    "MobMixin",
+    "MossRandomTickMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "twilightsparksdelight:item/helmet_crab_leg_sushi_roll"
+  }
+}

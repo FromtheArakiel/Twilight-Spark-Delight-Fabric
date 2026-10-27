@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelight:fire_beetle_leg"
+  },
+  "result": {
+    "id": "twilightsparksdelight:cooked_fire_beetle_leg"
+  },
+  "experience": 0.35,
+  "cooking_time": 200
+}

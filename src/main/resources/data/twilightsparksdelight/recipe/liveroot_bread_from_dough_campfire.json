@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "twilightsparksdelight:liveroot_dough"
+  },
+  "result": {
+    "id": "twilightsparksdelight:liveroot_bread"
+  },
+  "experience": 0.35,
+  "cooking_time": 600
+}

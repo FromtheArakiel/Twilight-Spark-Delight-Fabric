@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "twilightsparksdelight:twilight_cheese_fondue_companion"
+    },
+    "title": {
+      "translate": "twilightsparksdelight.advancement.gathered_around"
+    },
+    "description": {
+      "translate": "twilightsparksdelight.advancement.gathered_around.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "twilightsparksdelight:forest_banquet",
+  "criteria": {
+    "gathered_around": {
+      "trigger": "twilightsparksdelight:gathered_around"
+    }
+  }
+}
+
+

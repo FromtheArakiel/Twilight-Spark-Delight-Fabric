@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {"item": "minecraft:beetroot"},
+    {"tag": "c:crops/tomato"},
+    {"tag": "twilightsparksdelight:borscht_meef"},
+    {"item": "twilightsparksdelight:torchberry_sauce"},
+    {"tag": "twilightsparksdelight:twilight_forest_plants"},
+    {"item": "twilightsparksdelight:liveroot_cone"}
+  ],
+  "result": {"id": "twilightsparksdelight:twilight_borscht", "count": 1},
+  "container": {"id": "twilightsparksdelight:glory_crucible", "count": 1},
+  "experience": 1.0,
+  "cookingtime": 1800
+}
