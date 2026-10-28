@@ -123,12 +123,6 @@ public final class TSDCombatEvents {
                         * (grief.getAmplifier() + 1);
                 result *= 1.0F + increase;
             }
-            if (attacker.hasEffect(TSDMobEffects.holder(TSDRegistry.Effects.ABYSS_CALL))
-                    && entity instanceof net.minecraft.world.entity.monster.Enemy) {
-                entity.addEffect(new MobEffectInstance(
-                        TSDMobEffects.holder(TSDRegistry.Effects.SYMBIOSIS), 300, 0,
-                        false, false, true));
-            }
             boolean critical = attacker.fallDistance > 0.0F && !attacker.onGround()
                     && !attacker.onClimbable() && !attacker.isInWater()
                     && !attacker.hasEffect(MobEffects.BLINDNESS) && !attacker.isPassenger();
@@ -142,6 +136,29 @@ public final class TSDCombatEvents {
             }
         }
         return result;
+    }
+
+    /** Applies the Abyss Call effect to an enemy hit by any player-owned attack. */
+    public static void applyAbyssCall(LivingEntity target,
+                                      net.minecraft.world.damagesource.DamageSource source) {
+        if (target.level().isClientSide()
+                || !(target instanceof net.minecraft.world.entity.monster.Enemy)) {
+            return;
+        }
+        Player attacker = playerOwner(source);
+        if (attacker != null
+                && attacker.hasEffect(TSDMobEffects.holder(TSDRegistry.Effects.ABYSS_CALL))) {
+            target.addEffect(new MobEffectInstance(
+                    TSDMobEffects.holder(TSDRegistry.Effects.SYMBIOSIS), 300, 0,
+                    false, false, true));
+        }
+    }
+
+    private static Player playerOwner(net.minecraft.world.damagesource.DamageSource source) {
+        if (source.getEntity() instanceof Player player) {
+            return player;
+        }
+        return source.getDirectEntity() instanceof Player player ? player : null;
     }
 
     /**

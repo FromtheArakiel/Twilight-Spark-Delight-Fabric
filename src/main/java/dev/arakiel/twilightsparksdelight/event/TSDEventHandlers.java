@@ -83,6 +83,7 @@ public final class TSDEventHandlers {
         if (entity instanceof Mob mob && event.getSource().getEntity() instanceof Player player) {
             TSDEvents.onPacifiedMobAttacked(mob, player);
         }
+        TSDCombatEvents.applyAbyssCall(entity, event.getSource());
         if (TSDCombatEvents.shouldCancelDamage(entity, event.getSource())) {
             event.setCanceled(true);
         }
